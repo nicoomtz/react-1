@@ -1,3 +1,5 @@
+import './App.css';
+
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
 import ContactoPage from './pages/ContactoPage';

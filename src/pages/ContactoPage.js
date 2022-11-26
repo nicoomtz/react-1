@@ -1,3 +1,5 @@
+import '../styles/components/pages/ContactoPage.css';
+
 import React from 'react';
 
 const ContactoPage = props => {

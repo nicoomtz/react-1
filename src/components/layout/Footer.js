@@ -1,3 +1,5 @@
+import '../../styles/components/layout/Footer.css';
+
 import React from 'react';
 
 const Footer = props => {

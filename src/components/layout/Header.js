@@ -1,3 +1,5 @@
+import '../../styles/components/layout/Header.css';
+
 import React from 'react';
 
 const Header = props => {
@@ -7,6 +9,7 @@ const Header = props => {
         <img
           src='img/logo.png'
           alt='Transportes X'
+          width={100}
         />
         <h1>Transportes X</h1>
       </div>

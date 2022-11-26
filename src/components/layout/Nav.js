@@ -1,4 +1,6 @@
-import { Link } from 'react-router-dom';
+import '../../styles/components/layout/Nav.css';
+
+import { NavLink } from 'react-router-dom';
 import React from 'react';
 
 const Nav = props => {
@@ -7,16 +9,32 @@ const Nav = props => {
       <div>
         <ul>
           <li>
-            <Link to='/'>Home</Link>
+            <NavLink
+              activeClassName='activo'
+              to='/'>
+              Home
+            </NavLink>
           </li>
           <li>
-            <Link to='/nosotros'>Nosotros</Link>
+            <NavLink
+              activeClassName='activo'
+              to='/nosotros'>
+              Nosotros
+            </NavLink>
           </li>
           <li>
-            <Link to='/novedades'>Novedades</Link>
+            <NavLink
+              activeClassName='activo'
+              to='/novedades'>
+              Novedades
+            </NavLink>
           </li>
           <li>
-            <Link to='/contacto'>Contacto</Link>
+            <NavLink
+              activeClassName='activo'
+              to='/contacto'>
+              Contacto
+            </NavLink>
           </li>
         </ul>
       </div>
